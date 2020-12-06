@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
+import CircularProgress from './CircularUnderLoad'
 
 
 
@@ -34,7 +35,7 @@ class ListPokemon extends React.Component{
 
     return (
   
-        <div className="row">
+        <div className="row" style={{width:"100%"}}>
         {this.state.pokemon ? (
           <div className="row">
             {this.state.pokemon.map(pokemon => (
@@ -44,7 +45,9 @@ class ListPokemon extends React.Component{
             ))}
           </div>
         ) : (
-         <div>LOADING</div>
+         <div style={{marginLeft:"auto",marginRight:"auto"}}>
+           <CircularProgress/>
+         </div>
         )}
         </div>
       

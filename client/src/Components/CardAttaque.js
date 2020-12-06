@@ -33,11 +33,11 @@ function CardAttaque(props) {
       
       <Card style={{ width: '14rem',backgroundColor:"#706C6C" }}>
       <ListGroup variant="flush" style={{ borderRadius:"0%" }} >
-        <ListGroup.Item  style={{backgroundColor:"#706C6C" }}>{props.nom}</ListGroup.Item>
-        <ListGroup.Item style={{backgroundColor:"#706C6C" }}>{props.niveau}</ListGroup.Item>
-        <ListGroup.Item style={{backgroundColor:"#706C6C" }}>{props.puissance}</ListGroup.Item>
-        <ListGroup.Item style={{backgroundColor:"#706C6C" }}>{props.precision}</ListGroup.Item>
-        <ListGroup.Item style={{backgroundColor:"#706C6C" }}>{props.pp}</ListGroup.Item>
+        <ListGroup.Item  style={{backgroundColor:"#706C6C",textAlign:"center" }}>{props.nom}</ListGroup.Item>
+        <ListGroup.Item style={{backgroundColor:"#706C6C" }}><div style={{display:"flex"}}><div style={{textAlign:"left",fontWeight:"bold"}}>Niveau </div><div style={{marginLeft:"10%"}}>{props.niveau}</div></div></ListGroup.Item>
+        <ListGroup.Item style={{backgroundColor:"#706C6C" }}><div style={{display:"flex"}}><div style={{textAlign:"left",fontWeight:"bold"}}>Puissance </div><div style={{marginLeft:"10%"}}>{props.puissance}</div></div></ListGroup.Item>
+        <ListGroup.Item style={{backgroundColor:"#706C6C" }}><div style={{display:"flex"}}><div style={{textAlign:"left",fontWeight:"bold"}}>Precision </div><div style={{marginLeft:"10%"}}>{props.precision}</div></div></ListGroup.Item>
+        <ListGroup.Item style={{backgroundColor:"#706C6C" }}><div style={{display:"flex"}}><div style={{textAlign:"left",fontWeight:"bold"}}>PP </div><div style={{marginLeft:"10%"}}>{props.pp}</div></div></ListGroup.Item>
       </ListGroup>
     </Card>
   

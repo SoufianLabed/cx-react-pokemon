@@ -57,39 +57,39 @@ const StyledTableCell = withStyles((theme) => ({
               <TableBody >
 
                   <StyledTableRow style={{backgroundColor:"#706C6C"}} >
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs1}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs1}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep1}</StyledTableCell>
                   </StyledTableRow>
 
                 
                   <StyledTableRow style={{backgroundColor:"#222222"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs2}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs2}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep2}</StyledTableCell>
                   </StyledTableRow>
 
                   <StyledTableRow style={{backgroundColor:"#706C6C"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs3}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs3}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep3}</StyledTableCell>
                   </StyledTableRow>
 
                   <StyledTableRow style={{backgroundColor:"#222222"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs4}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs4}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep4}</StyledTableCell>
                   </StyledTableRow>
 
                   <StyledTableRow style={{backgroundColor:"#706C6C",color:"white"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs5}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs5}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep5} </StyledTableCell>
                   </StyledTableRow>
 
 
                   <StyledTableRow style={{backgroundColor:"#222222",color:"white"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs6}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs6}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep6} </StyledTableCell>
                   </StyledTableRow>
 
                   <StyledTableRow style={{backgroundColor:"#706C6C",color:"white"}}>
-                    <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.champs7}</StyledTableCell>
+                    <StyledTableCell style={{color:"white",borderColor:"#222222",fontWeight:"bold"}} align="left">{props.champs7}</StyledTableCell>
                     <StyledTableCell style={{color:"white",borderColor:"#222222"}} align="left">{props.rep7}</StyledTableCell>
                   </StyledTableRow>
 

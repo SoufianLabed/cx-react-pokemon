@@ -21,7 +21,7 @@ class HomePage extends React.Component{
     return (
       
       <div className='main'>
-        <div className="imgpoke">
+        <div className="imgpoke" >
           <img src="https://cdn.bulbagarden.net/upload/4/4b/Pok%C3%A9dex_logo.png" alt="Girl in a jacket"  ></img>
        </div>
         

@@ -164,7 +164,7 @@ async componentDidMount(){
             ))}
           </div>
         ) : (
-         <div>LOADING</div>
+         <div></div>
         )}
 
 

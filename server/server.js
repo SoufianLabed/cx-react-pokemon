@@ -2,7 +2,7 @@ const express = require('express')
 const knex = require('knex')
 const app = express()
 const cors = require('cors')
-const port = 4242
+const port = process.argv[2]
 
 
 app.use(cors())
@@ -88,7 +88,7 @@ app.delete('/pokemons/:id',(req,res)=>{
 
 
   database.from('pokemon').where('id', id).del().then(
-    res.send("<h1> C'est supprimé chakal</h1>")
+    res.send("<h1>Pokemon correctement supprimer</h1>")
   )
 
 })
@@ -108,7 +108,7 @@ app.post('/pokemons',(req, res) => {
     })
     .into('pokemon')
     .then( () => {
-      res.send("C'est ajouté chakal")
+      res.send("Pokemon correctement ajouté")
     })
     .catch((err) => { console.log(err); throw err })
     .finally(() => {

@@ -23,7 +23,7 @@ const database = knex({
   });
 
 
-
+// récuperer l'ensemble des pokemon oderby leurs numéros de pokedex
 app.get('/',(req,res)=>{
 
   let tab = []
@@ -104,6 +104,7 @@ app.post('/pokemons',(req, res) => {
     database.insert({
         nom: req.body.nom,
         numéro: req.body.numéro,
+        numero: req.body.numéro
     })
     .into('pokemon')
     .then( () => {

@@ -11,6 +11,10 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TablePokemon from './Components/TablePokemon'
 import CardAttaque from './Components/CardAttaque'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom'
+
 
 
 
@@ -81,9 +85,15 @@ async componentDidMount(){
     return (
   
         <div className="all">
-        
-        <div className="imgpoke">
+          <Link to="/">
+
          
+          <FontAwesomeIcon style={{color:"white",width:"10%",height:"30px",marginTop:"30px",position:"absolute"}}icon={faArrowLeft} />
+          </Link>
+        <div className="imgpoke">
+    
+        <i class="fas fa-arrow-left"></i>
+
           <img src={this.state.num}  />
         </div>
           

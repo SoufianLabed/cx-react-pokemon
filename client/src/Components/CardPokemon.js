@@ -26,6 +26,7 @@ function CardPokemon(props) {
 
   const classes = useStyles();
   const test = `/pokemon/${props.ide}`
+  console.log(props.url)
  
     return (
       <div className="card_pokemon">

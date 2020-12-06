@@ -41,11 +41,11 @@ class ListPokemon extends React.Component{
             {this.state.pokemon.map(pokemon => (
            
             <CardPokemon key={pokemon.id} name={pokemon.nom} url={"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/"+pokemon.numero+".png"} ide={pokemon.id} num={pokemon.numero}/>
-             
+            
             ))}
           </div>
         ) : (
-         <div style={{marginLeft:"auto",marginRight:"auto"}}>
+         <div style={{marginLeft:"auto",marginRight:"auto",height:"100vh"}}>
            <CircularProgress/>
          </div>
         )}

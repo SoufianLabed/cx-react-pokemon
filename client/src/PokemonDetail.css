@@ -30,11 +30,6 @@
 
 
 
-.list_card{
-   
-   
-  
-}
 
 
 
@@ -43,11 +38,19 @@
     margin-left:15%;
     margin-left:15%;
     padding-bottom: 10%;
-    padding-top: 5%;
+    
    
  }
 
 .cardA{
     margin-left: 1%;
     margin-top: 1%;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+    margin-left:17% ;
+    width: 15%;
+    margin-bottom: 2%;
 }

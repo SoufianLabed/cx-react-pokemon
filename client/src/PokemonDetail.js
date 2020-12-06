@@ -95,7 +95,10 @@ async componentDidMount(){
         <i class="fas fa-arrow-left"></i>
 
           <img src={this.state.num}  />
-        </div>
+        </div> 
+
+        <div style={{color:"white",fontSize:"25px",marginLeft:"17%"}}>CARACTÉRISTIQUES</div>
+        <hr/>
           
         {this.state.pokemon ? (
 
@@ -165,8 +168,9 @@ async componentDidMount(){
         )}
 
 
-
-       
+        <div style={{color:"white",fontSize:"25px",marginLeft:"17%",marginTop:"3%"}}>ATTAQUES</div>
+        <hr/>
+          
         {this.state.attaques ? (
          <div className="list_cardA">
           <div className="row">

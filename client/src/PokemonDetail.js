@@ -173,7 +173,7 @@ async componentDidMount(){
           
         {this.state.attaques ? (
          <div className="list_cardA">
-          <div className="row">
+          <div className="row" style={{width:"100%"}}>
             {this.state.attaques.map(attaques => (
                 <div className="cardA">
                   <CardAttaque puissance={attaques.puissance} nom={attaques.nom} niveau={attaques.niveau} precision={attaques.precision} pp={attaques.pp} />

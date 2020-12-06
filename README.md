@@ -15,3 +15,11 @@ Récuperer l'ensemble des pokemons : http://localhost:4242/
 Récuperer les informations ou supprimer totalement un pokemon d'id 1 : http://localhost:4242/pokemons/1
 
 Récuperer les attaques d'un certains pokemon : http://localhost:4242/attaques/1
+
+Pour insérer un pokemon voici le json (avec les champs minimum) à fournir :
+
+{
+    "nom" : "Tortank",
+    "numero": "009",
+    "numéro": "009"
+}

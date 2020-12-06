@@ -1,0 +1,53 @@
+.imgpoke{
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+    border-color: red;
+
+
+}
+
+.poketab{
+
+    text-align: center;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15% ;
+}
+
+.doubletab{
+    display: flex;
+}
+
+
+.all{
+    background:#222222;
+   
+}
+
+
+
+.list_card{
+   
+   
+  
+}
+
+
+
+.list_cardA{
+   
+    margin-left:15%;
+    margin-left:15%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+   
+ }
+
+.cardA{
+    margin-left: 1%;
+    margin-top: 1%;
+}

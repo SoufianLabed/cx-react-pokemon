@@ -1,0 +1,5 @@
+    <div className="todo-item">
+         
+    <p>{props.name} et {props.num} </p>
+    <img border="0" alt="W3Schools" src= {props.url} width="100" height="100"></img>
+        </div>
